@@ -80,21 +80,21 @@ def merchant_center(list_attributes):
 
 
     #load images 
-    backg = pygame.image.load("Hackathon/myGame/img/forest.png")
+    backg = pygame.image.load("myGame/img/forest.png")
     back_grect = backg.get_rect()
     backg = pygame.transform.scale(backg, (640, 480))
 
-    market = pygame.image.load("Hackathon/Mygame/img/shop.png")
+    market = pygame.image.load("Mygame/img/shop.png")
     market_rect = market.get_rect()
     market = pygame.transform.scale(market, (int(market.get_width() * 0.6), int(market.get_height() * 0.6)))
     market_rect.midbottom = (width//2 + width//4, 600)
 
-    witch = pygame.image.load("Hackathon/Mygame/img/witch.png")
+    witch = pygame.image.load("Mygame/img/witch.png")
     witch = pygame.transform.flip(witch, True, False)
     witch_rect = witch.get_rect()
     witch = pygame.transform.scale(witch, (int(witch.get_width() * 0.5), int(witch.get_height() * 0.5)))
 
-    gold_i = pygame.image.load("Hackathon/Mygame/img/icons/gold.png")
+    gold_i = pygame.image.load("Mygame/img/icons/gold.png")
     gold_i = pygame.transform.flip(gold_i, True, False)
     gold_rect = gold_i.get_rect()
     gold_i = pygame.transform.scale(gold_i, (int(gold_i.get_width() * 0.18), int(gold_i.get_height() * 0.18)))
@@ -110,7 +110,7 @@ def merchant_center(list_attributes):
 
     class Button():
         def __init__(self, image, clicked, x, y, button_scale):
-            self.image = pygame.image.load(f"Hackathon/myGame/img/icons/{image}.png")
+            self.image = pygame.image.load(f"myGame/img/icons/{image}.png")
             self.image = pygame.transform.scale(self.image, (int(self.image.get_width() * button_scale), int(self.image.get_height() * button_scale)))
             self.rect = self.image.get_rect()
             self.rect.center = (x,y)
@@ -150,8 +150,8 @@ def merchant_center(list_attributes):
             self.height = 200
             
 
-            #Hackathon/myGame/img/bad_guy.png
-            self.image = pygame.image.load(f"Hackathon/myGame/img/{char_type}.png")
+            #myGame/img/bad_guy.png
+            self.image = pygame.image.load(f"myGame/img/{char_type}.png")
             self.rect = self.image.get_rect()
             self.image = pygame.transform.scale(self.image, (int(self.image.get_width() * scale), int(self.image.get_height() * scale)))
 
@@ -170,11 +170,11 @@ def merchant_center(list_attributes):
                 #reset images
                 temp_list = []
                 #find number of frames for each animation
-                num_images = len(os.listdir(f"Hackathon/myGame/img/old_animations/{animation}"))
+                num_images = len(os.listdir(f"myGame/img/old_animations/{animation}"))
 
                 #add each frame to list of actions 
                 for frame in range(num_images):
-                    img = pygame.image.load(f"Hackathon/myGame/img/old_animations/{animation}/{frame}.png")
+                    img = pygame.image.load(f"myGame/img/old_animations/{animation}/{frame}.png")
                     img = pygame.transform.scale(img, (int(img.get_width() * 2), int(img.get_height() * 2)))
                     temp_list.append(img)
 

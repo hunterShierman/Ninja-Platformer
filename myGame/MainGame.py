@@ -10,6 +10,9 @@ from mygame import hunters_chest_upgrades
 from merchantCenter import merchant_center 
 import os 
 
+import os
+print("Current working directory:", os.getcwd())
+
 
 pygame.init()
 
@@ -246,14 +249,14 @@ def draw(plat, ene, fire, lazer1, lazer2, bckgrnd, running, standing, attack, pa
     screen.blit(bckgrnd, (0, 0))
     # print(player.health)
     healthCount = my_font.render(f"{player.health:.0f}", False, (0, 0, 0))
-    healthImage = pygame.image.load(f"Hackathon/myGame/img/icons/health.png")
+    healthImage = pygame.image.load(f"myGame/img/icons/health.png")
     healthImage = pygame.transform.scale(healthImage, (int(healthImage.get_width() * 0.4), int(healthImage.get_height() * 0.4)))
 
     goldCount = my_font.render(f"{player.gold:.0f}", False, (0,0,0))
-    goldImage = pygame.image.load("Hackathon/Mygame/img/icons/gold.png")
+    goldImage = pygame.image.load("Mygame/img/icons/gold.png")
     goldImage = pygame.transform.scale(goldImage, (int(goldImage.get_width() * 0.15), int(goldImage.get_height() * 0.15)))
 
-    # swordcCountImage = pygame.image.load("Hackathon/Mygame/img/icons/sword_c.png")
+    # swordcCountImage = pygame.image.load("Mygame/img/icons/sword_c.png")
     # swordcCountImage = pygame.transform.scale(swordcCountImage, (int(swordcCountImage.get_width() * 0.3), int(swordcCountImage.get_height() * 0.3)))
 
     
@@ -428,20 +431,20 @@ def merch_center():
 keepGoing = True
 
 
-plat = pygame.image.load("Hackathon\myGame\img\platform.png")
+plat = pygame.image.load("myGame\img\platform.png")
 # plat = pygame.transform.scale(plat, (plat.get_width*0.5(), plat.get_height()*0.5))
 
 
-ene = pygame.image.load("Hackathon\myGame\img/goblin_idle.png")
-fire = pygame.image.load("Hackathon\myGame\img/goblin_attack.png")
-lazer1 = pygame.image.load("Hackathon\myGame\img\lazer.png")
-lazer2 = pygame.image.load("Hackathon\myGame\img\lazer.png")
-bckgrnd = pygame.image.load("Hackathon\myGame\img/backg.png")
-running = pygame.image.load("Hackathon\myGame\img/ninja_running.png")
-standing = pygame.image.load("Hackathon\myGame\img/ninja_idle.png")
-attack = pygame.image.load("Hackathon\myGame\img/ninja_attack.png")
-parry = pygame.image.load("Hackathon\myGame\img/ninja_parry.png")
-# parry = pygame.image.load("Hackathon\myGame\img/old_animations/player_attack2/4.png")
+ene = pygame.image.load("myGame\img\goblin_idle.png")
+fire = pygame.image.load("myGame\img/goblin_attack.png")
+lazer1 = pygame.image.load("myGame\img\lazer.png")
+lazer2 = pygame.image.load("myGame\img\lazer.png")
+bckgrnd = pygame.image.load("myGame\img/backg.png")
+running = pygame.image.load("myGame\img/ninja_running.png")
+standing = pygame.image.load("myGame\img/ninja_idle.png")
+attack = pygame.image.load("myGame\img/ninja_attack.png")
+parry = pygame.image.load("myGame\img/ninja_parry.png")
+# parry = pygame.image.load("myGame\img/old_animations/player_attack2/4.png")
 
 
 

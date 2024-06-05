@@ -21,7 +21,7 @@ def hunters_chest_upgrades(list_attributes):
     scale = 0.6
 
     #images 
-    backg = pygame.image.load("Hackathon\myGame\img\mountain.png")
+    backg = pygame.image.load("myGame\img\mountain.png")
     backg = pygame.transform.scale(backg, (640, 480))
 
     #player variables
@@ -121,7 +121,7 @@ def hunters_chest_upgrades(list_attributes):
             #load all images for player 
             #add each frame to list of actions 
             for frame in range(2):
-                img = pygame.image.load(f"Hackathon\myGame\img\{frame}.png")
+                img = pygame.image.load(f"myGame\img\{frame}.png")
                 img = pygame.transform.scale(img, (int(img.get_width() * scale), int(img.get_height() * scale)))
                 self.animation_list.append(img)
 

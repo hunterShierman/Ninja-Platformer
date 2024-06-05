@@ -73,11 +73,11 @@ class Player():
             #reset images
             temp_list = []
             #find number of frames for each animation
-            num_images = len(os.listdir(f"Hackathon/myGame/img/old_animations/{animation}"))
+            num_images = len(os.listdir(f"myGame/img/old_animations/{animation}"))
 
             #add each frame to list of actions 
             for frame in range(num_images):
-                img = pygame.image.load(f"Hackathon/myGame/img/old_animations/{animation}/{frame}.png")
+                img = pygame.image.load(f"myGame/img/old_animations/{animation}/{frame}.png")
                 img = pygame.transform.scale(img, (int(img.get_width() * 2), int(img.get_height() * 2)))
                 temp_list.append(img)
 
