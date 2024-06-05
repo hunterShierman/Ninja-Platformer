@@ -30,7 +30,6 @@ global ground
 ground = height - 100
 screenSpeed = 10
 #-------GITHUB TESTING------
-#GITHUB TESTING2
 
 
 platformList = [Platform([0, realGround], [width, 10])]
