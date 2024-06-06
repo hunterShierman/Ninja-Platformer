@@ -9,8 +9,8 @@ Every 45 seconds the player will be transported to the shop area and be given a 
 After each trip to the shop level, there is a 50% chance that the player will get a special chest with attribute upgrades.
 
 Controls: --
-Left Movement: A
-Right Movement: D
+Left Movement: A --
+Right Movement: D --
 Jump: Space
 Sword Attack: H --
 Sword Parry/Block: Shift -- 
