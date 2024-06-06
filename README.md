@@ -8,6 +8,8 @@ After each kill, the player will receive gold which can be spent on upgrades at 
 Every 45 seconds the player will be transported to the shop area and be given a chance to spend their gold.
 After each trip to the shop level, there is a 50% chance that the player will get a special chest with attribute upgrades.
 
+TIP: When blocking hold down shift just before the enemy attacks, do not try to time your parry - the window is extremely small and difficult to time.
+
 Controls: --
 Left Movement: A --
 Right Movement: D --
