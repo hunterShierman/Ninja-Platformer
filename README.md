@@ -11,7 +11,7 @@ After each trip to the shop level, there is a 50% chance that the player will ge
 Controls: --
 Movement: WASD --
 Sword Attack: H --
-Sword Parry: Shift -- 
+Sword Parry/Block: Shift -- 
 Magic Attack: J
 
 The player has 8 upgradable stats:
