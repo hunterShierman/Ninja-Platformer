@@ -8,11 +8,11 @@ After each kill, the player will receive gold which can be spent on upgrades at 
 Every 45 seconds the player will be transported to the shop area and be given a chance to spend their gold.
 After each trip to the shop level, there is a 50% chance that the player will get a special chest with attribute upgrades.
 
-Controls:
+Controls: --
 Movement: WASD --
 Sword Attack: H --
 Sword Parry: Shift -- 
-Magic Attack: J --
+Magic Attack: J
 
 The player has 8 upgradable stats:
 
