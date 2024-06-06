@@ -11,7 +11,7 @@ After each trip to the shop level, there is a 50% chance that the player will ge
 Controls: --
 Left Movement: A --
 Right Movement: D --
-Jump: Space
+Jump: Space --
 Sword Attack: H --
 Sword Parry/Block: Shift -- 
 Magic Attack: J
