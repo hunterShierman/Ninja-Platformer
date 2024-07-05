@@ -378,35 +378,35 @@ def merchant_center(list_attributes):
         
         
 
-        if health.draw(screen) is True and list_attributes[0] >30:
+        if health.draw(screen) is True and list_attributes[0] >= 30:
             list_attributes[0] -= 30
             list_attributes[1] += 5 
 
-        if sword_d.draw(screen) is True and list_attributes[0] >30:
+        if sword_d.draw(screen) is True and list_attributes[0] >= 30:
             list_attributes[0] -= 30
             list_attributes[2] += 5 
 
-        if sword_r.draw(screen) is True and list_attributes[0] >30:
+        if sword_r.draw(screen) is True and list_attributes[0] >= 30:
             list_attributes[0] -= 30
             list_attributes[3] += 5 
 
-        if magic_d.draw(screen) is True and list_attributes[0] > 30:
+        if magic_d.draw(screen) is True and list_attributes[0] >= 30:
             list_attributes[0] -= 30
             list_attributes[4] += 5 
 
-        if magic_r.draw(screen) is True and list_attributes[0] > 30:
+        if magic_r.draw(screen) is True and list_attributes[0] >= 30:
             list_attributes[0] -= 30
             list_attributes[5] += 5 
 
-        if magic_c.draw(screen) is True and list_attributes[0] >30:
+        if magic_c.draw(screen) is True and list_attributes[0] >= 30:
             list_attributes[0] -= 30
             list_attributes[6] -= 5 
 
-        if block_d.draw(screen) is True and list_attributes[0] > 30:
+        if block_d.draw(screen) is True and list_attributes[0] >= 30:
             list_attributes[0] -= 30
             list_attributes[7] += 5 
 
-        if block_c.draw(screen) is True and list_attributes[0] >30:
+        if block_c.draw(screen) is True and list_attributes[0] >= 30:
             list_attributes[0] -= 30
             list_attributes[8] -= 5 
 
