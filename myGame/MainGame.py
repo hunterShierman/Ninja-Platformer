@@ -11,7 +11,6 @@ from merchantCenter import merchant_center
 import os 
 
 import os
-print("Current working directory:", os.getcwd())
 
 
 pygame.init()
@@ -303,7 +302,6 @@ def draw(plat, ene, fire, lazer1, lazer2, bckgrnd, running, standing, attack, pa
                 player.update_animation()
 
 
-                
             if player.facing == 1:
                 running = pygame.transform.scale(player.image, (player.pHeight + 150, player.pHeight + 140))
                 running = pygame.transform.flip(running, True, False)
