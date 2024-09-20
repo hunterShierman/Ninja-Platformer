@@ -1,5 +1,7 @@
 This project was created by me and three of my friends at our first Hackathon. 
 
+Demo Video: https://www.youtube.com/watch?v=sLxT1zEy-tY
+
 Overview:
 The game is a retro side scroller where the player is tasked with surviving against an onslought of enemy goblins.
 After each kill, the player will receive gold which can be spent on upgrades at the in game shop.
